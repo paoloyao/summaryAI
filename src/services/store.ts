@@ -1,5 +1,4 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { curryGetDefaultMiddleware } from "@reduxjs/toolkit/dist/getDefaultMiddleware";
 import { articleApi } from "./article";
 
 export const store = configureStore({
